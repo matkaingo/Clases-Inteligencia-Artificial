@@ -1,0 +1,43 @@
+                MACHINE LEARNING
+
+Supervisado(Prediccion), No supervisado(descripcion), Por Refuerzo(Premio/Castigo), semi-supervisado(Predicción), Profundo(Descripción)
+
+El aprendizaje por refuerzno esta basado en datos, los otros si.
+
+                APRENDIZAJE SUPERVISADO
+Prediccion discreta o clasificacion 
+Prediccion conntinua o regresion
+
+Prediccion por clasificacion
+
+      Lo quiero predecir se llama variable objetiva, o variable predictora
+      
+      
+      Conjunto de entrenamiento -------- Datos futuros
+      
+      Variable objetiva es una categoria
+      
+Predicion por regresion
+
+       Predice un numero
+  
+       La variable objetiva es un numero
+  
+  
+  
+  Ciclo de vida
+  
+  1.) preparacion de datos = Seleccion de variables, Limpieza de atipicos (Eliminar fila, imputación), Limpieza de nulos.
+  
+  Definicion de imputacion = se saca la media o la moda.  --> Sirve tambien para los nulos
+  
+  2.) Division de datos = saco el conjunto de entrenamiento
+  
+  3.) Aprendizaje = creo el modelo
+  
+  4.) Evaluacion = el modelo esta bien con exactitud de almenos el 80% -- evalua el modelo con el conjunto prueba
+  
+  Por regresion se calcula el error hallando el error absoluto(se resta la variable prediccion a la variable objetivo) 5% de error(0.05)
+  
+  5.) Prediccion futura
+  
