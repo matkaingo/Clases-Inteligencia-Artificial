@@ -1,0 +1,16 @@
+Metodos supervizados
+
+Algunos sirven para hacer regresion y otros para hacer calificaciones.
+
+-Redes neuronales
+-Arboles de decision
+-Metodos probabilisticos
+-Maq. soporte vectorial
+-Metodos de regresion
+-Metodos basados en ejemplos
+
+Indices de informacion
+
+
+Arboles de clasificacion = variable objetiva escategorica
+Arboles de regresion = Variable objetivo(numero) es continua
