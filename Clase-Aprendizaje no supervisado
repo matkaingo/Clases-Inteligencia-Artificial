@@ -1,0 +1,51 @@
+Agrupamiento/Clustering
+Se interesa en el presente
+-Busca similaridades.
+-No tenfria varibale objetiva
+
+Ciclo de vida:
+-Preparacion de datos
+-Aprendizaje
+-Evaluacion.
+-Perfilamiento.
+
+
+Evaluacion:
+
+      Cohesion: Promedio de distanciar el dato al centro del cluster.
+      Separabilidad: Promedio de distancias entre los centros de los clusters.
+      Silueta: Cohession y separabilidad de cada registro.
+      
+      
+      
+      Silueta por registro:
+          
+          sil=   b-a
+               --------
+               max(a,b)
+               
+         b : separabilidad de cada registro
+         a : cohesion de cada registro.
+         
+      Perfilamiento
+        -Construyo un perfil(descripcion de los centroides o comportamiento de los datos) de cada cluster
+        
+        
+       Clustering jerarquico:
+       Es como arbol En las hojas quedan los datos
+       
+       Clustering particional: Importante
+       
+       Clustering por redes neuronales:
+       
+       Clustering por metodos probabilisticos
+       
+       Clusterinfg  evolutivos(Algoritmos geneticos)
+       
+       Clustering difusos
+       
+       
+       Metodo K-means
+       
+            definir k centroides (k siendo la cantidad de clusters)
+       
