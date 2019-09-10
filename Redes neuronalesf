@@ -1,0 +1,41 @@
+Redes neuronales
+-Queremos imitar nuesto cererbro
+Neuronas computacionales
+Solo las dendritas tienen peso asociado
+Puede tener muchas entradas pero solo una salida
+-Funcion de activacion
+Red neuronal: Las organizamos por capas(capa de entrada, capa oculta(es una capa de neuronas), capa de salida)
+
+Encontrar valores adecuados de los pesos W
+
+La misma capa tiene la misma funcion de activacion
+
+Modelos feedforward: Se propagan en una sola direccion
+Modelos recurrentes: Conexiones en todas las direcciones
+
+Perceptron simple: Red de una sola capa y es  feedforward, no tiene capa oculta
+          -Funcion de activacion: Escalonada(Si <0 out = 0 else out = 1)
+          -REgla de aprendizaje del perceptron= W(i+1)=w(i) + (y(i)- y'(i))*x(i)
+                                                                    |
+                                                                    |
+                                                                  Error
+                                                                 
+          -REgla de aprendizaje del perceptron= b(i+1)=b(i) + (y(i)- y'(i))
+                                                                    |
+                                                                    |
+                                                                  Error
+                                                                  
+          u = x1*w1 + x2*w2
+          
+          x1  x2  y w1  w2  b   u   y'  error(y-y')
+                    1   1  -3
+                    
+                    
+  Se encuentran los pesos de w1, w2 y b, para cuando el error(y-y') sea igual a  0, esto se hace con la ecuacion (u = x1*w1 + x2*w2)
+  La funcion usada fue la de escalon(si u>= 0 y'=1, si u<0 y'= 0), con  esto se encuentran los pesos que hagan que la variable objetivo sea correcta
+  (Que el error sea siempre 0).
+  Siempre que el error no de cero se realizan estas ecuaciones: W(i+1)=w(i) + (y(i)- y'(i))*x(i)
+                                                                b(i+1)=b(i) + (y(i)- y'(i))
+                                 
+ Y asi se a calculando los nuevos pesos, uhna ves el error de 0 se dejan deb realizar estas ecuaciones hasta que el error vuelva a ser != 0
+ Si el error es != 0 se vuelven a calcular los pesos(Se realizan las ecuaciones.)
