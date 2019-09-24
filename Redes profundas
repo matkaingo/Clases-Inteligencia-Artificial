@@ -1,0 +1,5 @@
+Más de una capa oculta  - Para que una red sea considerada profunda requiere 4 capas como minimo
+Se utiliza para datos complejos(Muchas variables de entrada, Imagenes o textos)
+Las funciones de activacion cambian
+No se usan funciones lineales
+funciones de activacion no Lineales(sigmoid, reLu)
