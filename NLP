@@ -1,0 +1,41 @@
+Capabilidades de NLP
+    -Topic Modeling
+    -Text categorazation
+    -Text clustering
+    -Information extraction
+    -Nem entity resolution
+    -Relationship extraction
+    -Sentiment Analysis
+
+Procesamiento de lenguaje natural necesita dos areas especificas=  Text representation(Machine learning)
+
+Representacion de texto: Cogemos un documento de texto y lo volvemos numeros
+  Formas de Representacion:
+      -Grafos
+      -Frecuencia(Bolsa de palabras) --> Es el que amos a usar.
+      
+  Frecuencia(Bolsa de palabras):
+      1. Preparar el texto
+            -Se convierte a minúsculas
+            -Traducir
+            -Eliminar números
+            -Eliminar espacios en blanco multiples.
+            
+      2. Eliminar stopwords
+            -Elimina aarticulos y preposiciones(Ej. La casa es bonita --Se eliminan preposiciones-----> casa bonita)
+            
+      3. Reducir las palabras a las raices
+            -Ej. (Casota----Se convierte en-----> casa)
+            -Ej  (niñito-----Se convierte en------> niño)
+            
+      4. Calcular vecto de caracteristicas
+          -Guarda las palabras en la bolsa
+          -idf ---> calificativo (Formula en las diapositivas)
+          -Volvemos las palabras que quedan en un vector de números
+          -Se analiza la frecuencia de aparicion de las palabras(Cuamtas veces aparece la palabra)
+          -Las almacena en vectores en los cuales cada uno cuenta las veces que se repite las palabras de la bolsa en el documento
+          (Revisar diapositivas)
+          
+          
+          
+          EJEMPLO DE COLLAB EN LA CARPETA NUMERO 3. EJEMPLO "BOLSAS"
